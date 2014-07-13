@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/fragment1"
+        style="@style/fragments"
+        android:name="com.example.reaver.hello_fragments.Fragment1"
+        tools:layout="@layout/fragment1"
+        android:layout_weight="1"/>
+    <fragment
+        android:id="@+id/fragment2"
+        style="@style/fragments"
+        android:name="com.example.reaver.hello_fragments.Fragment2"
+        tools:layout="@layout/fragment2"
+        android:layout_weight="2"/>
+</LinearLayout>
